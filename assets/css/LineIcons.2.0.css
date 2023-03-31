@@ -1190,6 +1190,14 @@ Author: lineicons.com
   content: "\eb04";
 }
 
+.lni-huaway::before {
+  content: url('../images/huaway.png'); /* with class ModalCarrot ??*/
+  position: relative; /*or absolute*/
+  z-index: 100000; /*a number that's more than the modal box*/
+  /* left:-5px;
+  top:10px; */
+}
+
 .lni-laravel::before {
   content: "\eb05";
 }
@@ -1526,9 +1534,9 @@ Author: lineicons.com
   content: "\eb58";
 }
 
-.lni-huaway::before {
+/* .lni-huaway::before {
   content: "\eb58";
-}
+} */
 
 .lni-pizza::before {
   content: "\eb59";
